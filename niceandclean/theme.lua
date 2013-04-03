@@ -6,7 +6,8 @@ require("awful.util")
 theme = {}
 
 home          = os.getenv("HOME")
-config        = awful.util.getdir("config")
+-- config        = awful.util.getdir("config")
+config        = home .. "/.config/awesome/"
 shared        = "/usr/share/awesome"
 if not awful.util.file_readable(shared .. "/icons/awesome16.png") then
     shared    = "/usr/share/local/awesome"
@@ -14,11 +15,12 @@ end
 sharedicons   = shared .. "/icons"
 sharedthemes  = shared .. "/themes"
 themes        = config .. "/themes"
+awesomethemes = themes .. "/awesome-themes"
 themename     = "/niceandclean"
-if not awful.util.file_readable(themes .. themename .. "/theme.lua") then
+if not awful.util.file_readable(awesomethemes .. themename .. "/theme.lua") then
 	themes = sharedthemes
 end
-themedir = themes .. themename
+themedir = awesomethemes .. themename
 
 wallpaper1    = themedir .. "/background.jpg"
 wallpaper2    = themedir .. "/background.png"
