@@ -27,7 +27,7 @@ cpu_avg_samples 2
 override_utf8_locale yes
 
 TEXT
-${color ce2c51}RAM: ${goto 160}CPU: ${goto 300}Battery: ${goto 450}System:     
+${color 2c8f4b}RAM: ${goto 160}CPU: ${goto 300}Battery: ${goto 450}System:     
 ${color ffffff}${mem} ${goto 160}${cpu cpu0}% ${goto 300}${battery_percent}${goto 450}${kernel}${color}
 ${color grey}${memfree} ${goto 160}${freq} ${goto 300} ${goto 450}${exec echo $(cat /sys/devices/platform/thinkpad_hwmon/fan1_input)} rpm${color}
 ${color 737373}${memmax} ${goto 160}${exec echo $(cat /sys/class/thermal/thermal_zone0/temp | cut -c1-2)}°C ${goto 300}${battery_time}${goto 450}${color}

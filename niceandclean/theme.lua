@@ -64,7 +64,7 @@ theme.border_width  = "2"
 theme.border_normal = "#747474"
 --theme.border_focus  = "#535d6c"
 theme.border_marked = "#91231c"
-theme.border_focus  = "#ce2c51"
+theme.border_focus  = "#2c8f4b"
 
 -- There are other variable sets
 -- overriding the default one when

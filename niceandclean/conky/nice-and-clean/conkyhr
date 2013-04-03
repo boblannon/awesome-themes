@@ -27,4 +27,4 @@ cpu_avg_samples 2
 override_utf8_locale no
 
 TEXT
-${goto 30}${color 000000}${time %l}
+${goto 20}${color 000000}${time %l}
