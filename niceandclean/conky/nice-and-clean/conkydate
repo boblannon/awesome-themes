@@ -27,5 +27,5 @@ cpu_avg_samples 2
 override_utf8_locale no
 
 TEXT
-${color ce2c51}${time %d} ${color ffffff}${time %B}
+${color 2c8f4b}${time %d} ${color ffffff}${time %B}
 ${time %A}
